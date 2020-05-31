@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springboot-shiro-vue" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Spring Boot.VueblogApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -122,13 +122,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1711" height="285" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590897815929" />
-    <state x="535" y="156" key="SettingsEditor" timestamp="1590806967678">
+    <state x="535" y="156" key="SettingsEditor" timestamp="1590918422324">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="535" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590806967678" />
+    <state x="535" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590918422324" />
     <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590859314315">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590859314315" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1590918391770">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590918391770" />
   </component>
 </project>
