@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="" />
+    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/AccountProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/AccountRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/AccountRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,17 +88,34 @@
       <option name="presentableId" value="Default" />
       <updated>1590806938667</updated>
       <workItem from="1590806942846" duration="8084000" />
+      <workItem from="1590918387918" duration="5218000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1590918450581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590918450581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1590859029393">
+    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1590933388574">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590859029393" />
+    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590933388574" />
+    <state x="560" y="117" width="1088" height="815" key="CommitChangelistDialog2" timestamp="1590922226703">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="117" width="1088" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1590922226703" />
     <state width="1711" height="285" key="GridCell.Tab.0.bottom" timestamp="1590897815929">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -134,5 +160,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590918391770" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1590920037571">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1590920037571" />
   </component>
 </project>
