@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 #   DataSource Config
 spring:
   datasource:
@@ -7,5 +10,17 @@ spring:
     password: root
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
-server:
-  port: 8080
+
+shiro-redis:
+  enable: true
+  redis-manager:
+    hots: 127.0.0.1:6379
+
+
+adam:
+  jwt:
+    # 加密密匙
+    secret: f4e2e52034348f86b67cde581c0f9eb
+      #token 有效时长 7天，单位 秒
+    expire: 604800
+    header: Authorization
