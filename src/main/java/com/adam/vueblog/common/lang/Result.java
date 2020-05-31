@@ -29,9 +29,17 @@ public class Result implements Serializable {
         return result;
     }
 
+
     public static Result fail(String msg, Object data) {
 
         Result result = new Result(400, msg, data);
+
+        return result;
+    }
+
+    public static Result fail(int code,String msg, Object data) {
+
+        Result result = new Result(code, msg, data);
 
         return result;
     }
