@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="全局异常处理">
+    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,8 @@
       <updated>1590806938667</updated>
       <workItem from="1590806942846" duration="8084000" />
       <workItem from="1590918387918" duration="7438000" />
-      <workItem from="1591019654352" duration="581000" />
+      <workItem from="1591019654352" duration="865000" />
+      <workItem from="1591101801019" duration="1402000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590918450581</created>
@@ -129,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590937969406</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="实体类校验">
+      <created>1591027872909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591027872909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,17 +158,18 @@
     <MESSAGE value="init" />
     <MESSAGE value="shiro登录逻辑处理配置" />
     <MESSAGE value="全局异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="全局异常处理" />
+    <MESSAGE value="实体类校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="实体类校验" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1590933388574">
+    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1591113081079">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590933388574" />
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1590938120542">
+    <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1591113081079" />
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1591027871635">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1590938120542" />
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1591027871635" />
     <state x="328" y="87" key="DiffContextDialog" timestamp="1590938061547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -203,14 +210,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="535" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1591019680336" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590938067680">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1591027883663">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590938067680" />
-    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591019661654">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591027883663" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591101799782">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591019661654" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591101799782" />
     <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590937984989">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
