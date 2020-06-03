@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="">
+    <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="拦截器跨域配置">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/dto/LoginDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,8 @@
       <workItem from="1590806942846" duration="8084000" />
       <workItem from="1590918387918" duration="7438000" />
       <workItem from="1591019654352" duration="865000" />
-      <workItem from="1591101801019" duration="2140000" />
+      <workItem from="1591101801019" duration="2229000" />
+      <workItem from="1591145323676" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590918450581</created>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591113261691</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="拦截器跨域配置">
+      <created>1591113996378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591113996378</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,17 +176,18 @@
     <MESSAGE value="全局异常处理" />
     <MESSAGE value="实体类校验" />
     <MESSAGE value="跨域配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="跨域配置" />
+    <MESSAGE value="拦截器跨域配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="拦截器跨域配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1591113424877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1591113424877" />
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1591113260348">
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1591114023550">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1591113260348" />
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1591114023550" />
     <state x="328" y="87" key="DiffContextDialog" timestamp="1590938061547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -218,18 +228,23 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="535" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1591019680336" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1591027883663">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1591114030778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591027883663" />
-    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591101799782">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591114030778" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591145330620">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591145330620" />
     <state x="662" y="384" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591101799782" />
     <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590937984989">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590937984989" />
+    <state x="639" y="328" key="git4idea.merge.GitPullDialog" timestamp="1591114007682">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="639" y="328" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591114007682" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1591113819715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
