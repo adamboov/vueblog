@@ -15,14 +15,12 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     @ExceptionHandler(value = ShiroException.class)
     public Result handler(ShiroException e) {
 
         log.error("运行时异常：-----------[{}]", e);
         return Result.fail(401, e.getMessage(), null);
-
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -34,6 +32,14 @@ public class GlobalExceptionHandler {
         ObjectError objectError = bindingResult.getAllErrors().stream().findFirst().get();
         
         return Result.fail(objectError.getDefaultMessage(), null);
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(value = IllegalArgumentException.class)
+    public Result handler(IllegalArgumentException e) {
+
+        log.error("运行时异常：-----------[{}]", e);
+        return Result.fail(e.getMessage(), null);
 
     }
 
