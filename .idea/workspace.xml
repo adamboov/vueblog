@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/ShiroUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1591019654352" duration="865000" />
       <workItem from="1591101801019" duration="2229000" />
       <workItem from="1591145323676" duration="572000" />
-      <workItem from="1591516545770" duration="3515000" />
+      <workItem from="1591516545770" duration="9061000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590918450581</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591145891376</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="登录控制层接口编写">
+      <created>1591538354533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591538354533</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,11 +205,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="241" width="681" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1591113424877" />
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1591145890302">
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2" timestamp="1591538353227">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="228" y="108" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591145890302" />
-    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1591114023550" />
+    <state x="228" y="108" width="1679" height="815" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1591538353226" />
     <state x="328" y="87" key="DiffContextDialog" timestamp="1590938061547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -246,6 +254,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591114030778" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591543059110">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591543059110" />
     <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591516552299">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -255,13 +267,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="752" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590937984989" />
+    <state x="636" y="258" width="647" height="534" key="find.popup" timestamp="1591543001930">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="258" width="647" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591543001930" />
     <state x="639" y="328" key="git4idea.merge.GitPullDialog" timestamp="1591114007682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="639" y="328" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591114007682" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1591113819715">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1591539907688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591113819715" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591539907688" />
   </component>
 </project>

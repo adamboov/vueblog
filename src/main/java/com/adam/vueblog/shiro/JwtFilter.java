@@ -1,7 +1,5 @@
 package com.adam.vueblog.shiro;
 
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
 import cn.hutool.json.JSONUtil;
 import com.adam.vueblog.common.lang.Result;
 import com.adam.vueblog.util.JwtUtils;
@@ -65,13 +63,14 @@ public class JwtFilter extends AuthenticatingFilter {
 
         HttpServletResponse httpServletResponse = (HttpServletResponse) response;
 
+        try {
+
         Throwable throwable = e.getCause() == null ? e : e.getCause();
 
         Result result = Result.fail(throwable.getLocalizedMessage(), null);
 
         String json = JSONUtil.toJsonStr(result);
 
-        try {
             httpServletResponse.getWriter().println(json);
         } catch (IOException ex) {
             log.error(ex.getMessage());
