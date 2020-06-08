@@ -8,6 +8,7 @@ import com.adam.vueblog.util.ShiroUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
@@ -43,6 +44,7 @@ public class BlogController {
         return Result.success("获取成功！", blog);
     }
 
+    @RequiresAuthentication
     @PostMapping("/blog/edit")
     public Result edit(@Validated @RequestBody Blog blog) {
 
@@ -52,7 +54,7 @@ public class BlogController {
             //  编辑
             temp = blogService.getById(blog.getId());
             //  只能编辑自己的文章
-            Assert.isTrue(temp.getUserId() == ShiroUtil.getProfile().getId(), "没有权限编辑！");
+            Assert.isTrue(temp.getUserId().longValue() == ShiroUtil.getProfile().getId().longValue(), "没有权限编辑！");
 
         } else {
             //  添加
@@ -60,11 +62,11 @@ public class BlogController {
             temp.setUserId(ShiroUtil.getProfile().getId());
             temp.setCreated(LocalDateTime.now());
             temp.setStatus(0);
-
-            BeanUtils.copyProperties(blog, temp, "id", "userId", "create", "status");
-            blogService.saveOrUpdate(temp);
-
-            return Result.success("添加成功！", null);
         }
+        BeanUtils.copyProperties(blog, temp, "id", "userId", "create", "status");
+        blogService.saveOrUpdate(temp);
+
+        return Result.success("添加成功！", null);
     }
+
 }
