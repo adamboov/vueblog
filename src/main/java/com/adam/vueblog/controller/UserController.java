@@ -10,6 +10,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ * @author VAIO-adam
  * @since 2020-05-30
  */
 @RestController
@@ -28,6 +29,6 @@ public class UserController {
 
     @PostMapping("/save")
     public Result save(@Validated @RequestBody User user) {
-        return Result.success("保存成功！",user);
+        return Result.success("保存成功！", user);
     }
 }

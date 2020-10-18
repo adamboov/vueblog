@@ -65,11 +65,11 @@ public class JwtFilter extends AuthenticatingFilter {
 
         try {
 
-        Throwable throwable = e.getCause() == null ? e : e.getCause();
+            Throwable throwable = e.getCause() == null ? e : e.getCause();
 
-        Result result = Result.fail(throwable.getLocalizedMessage(), null);
+            Result result = Result.fail(throwable.getLocalizedMessage(), null);
 
-        String json = JSONUtil.toJsonStr(result);
+            String json = JSONUtil.toJsonStr(result);
 
             httpServletResponse.getWriter().println(json);
         } catch (IOException ex) {

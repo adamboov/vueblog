@@ -20,6 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author VAIO-adam
+ */
 @RestController
 public class AccountController {
 
@@ -35,7 +38,11 @@ public class AccountController {
         User user = userService.getOne(new QueryWrapper<User>().eq("username", loginDTO.getUsername()));
         Assert.notNull(user, "用户不存在！");
 
-        if (user.getPassword().equals(SecureUtil.md5(loginDTO.getPassword())) ) {
+        String s = SecureUtil.md5(loginDTO.getPassword());
+
+        System.out.println(s);
+
+        if (!user.getPassword().equals(SecureUtil.md5(loginDTO.getPassword()))) {
             return Result.fail("密码不正确！", null);
         }
 
@@ -44,7 +51,7 @@ public class AccountController {
         response.setHeader("Authorization", jwt);
         response.setHeader("Access-control-Expose-Headers", "Authorization");
 
-        return Result.success("登录成功！",MapUtil.builder()
+        return Result.success("登录成功！", MapUtil.builder()
                 .put("id", user.getId())
                 .put("username", user.getUsername())
                 .put("avatar", user.getAvatar())

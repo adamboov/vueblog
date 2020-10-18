@@ -94,7 +94,7 @@ public class ShiroConfig {
 
         Map<String, String> filterMap = shiroFilterChainDefinition.getFilterChainMap();
         shiroFilter.setFilterChainDefinitionMap(filterMap);
-        
+
         return shiroFilter;
     }
 

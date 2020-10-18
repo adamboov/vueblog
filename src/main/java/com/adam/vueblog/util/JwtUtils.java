@@ -23,7 +23,7 @@ public class JwtUtils {
     private String header;
 
     /**
-     *  生成jwt Token
+     * 生成jwt Token
      */
     public String generateToken(long userId) {
         Date now = new Date();

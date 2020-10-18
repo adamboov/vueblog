@@ -21,6 +21,6 @@ adam:
   jwt:
     # 加密密匙
     secret: f4e2e52034348f86b67cde581c0f9eb
-      #token 有效时长 7天，单位 秒
+    #token 有效时长 7天，单位 秒
     expire: 604800
     header: Authorization
