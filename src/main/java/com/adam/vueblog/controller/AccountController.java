@@ -19,6 +19,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author VAIO-adam
@@ -43,6 +46,7 @@ public class AccountController {
         System.out.println(s);
 
         if (!user.getPassword().equals(SecureUtil.md5(loginDTO.getPassword()))) {
+
             return Result.fail("密码不正确！", null);
         }
 

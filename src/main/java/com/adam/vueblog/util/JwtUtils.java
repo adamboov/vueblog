@@ -10,6 +10,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
+/**
+ * @author VAIO-adam
+ */
 @Slf4j
 @Data
 @Component

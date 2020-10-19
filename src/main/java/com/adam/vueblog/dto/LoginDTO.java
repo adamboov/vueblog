@@ -6,6 +6,9 @@ import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 
+/**
+ * @author VAIO-adam
+ */
 @Data
 public class LoginDTO implements Serializable {
 

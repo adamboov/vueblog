@@ -15,6 +15,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 /**
+ * @author VAIO-adam
  * @since 2020-05-30
  */
 @Data

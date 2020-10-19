@@ -21,6 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * @author VAIO-adam
+ */
 @Slf4j
 @Component
 public class JwtFilter extends AuthenticatingFilter {

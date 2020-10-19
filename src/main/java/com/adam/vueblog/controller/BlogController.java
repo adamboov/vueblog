@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 
 /**
+ * @author VAIO-adam
  * @since 2020-05-30
  */
 @RestController

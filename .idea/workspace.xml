@@ -3,25 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="d9725923-c4b6-448a-8a14-b65d2f4b58f5" name="Default Changelist" comment="请求头修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/common/lang/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/VueblogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/VueblogApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/config/ShiroConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/dto/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/dto/LoginDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/impl/BlogServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/AccountRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/AccountRealm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/shiro/JwtToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/ShiroUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adam/vueblog/util/ShiroUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vueblog.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Spring Boot.VueblogApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,7 +117,11 @@
       <workItem from="1592106692020" duration="597000" />
       <workItem from="1602852897150" duration="4447000" />
       <workItem from="1602922218738" duration="2020000" />
-      <workItem from="1603011186692" duration="2770000" />
+      <workItem from="1603011186692" duration="4237000" />
+      <workItem from="1603023045972" duration="261000" />
+      <workItem from="1603023355509" duration="551000" />
+      <workItem from="1603023950560" duration="145000" />
+      <workItem from="1603024130783" duration="4163000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590918450581</created>
@@ -222,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591676740116</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="注释添加">
+      <created>1603015966670</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603015966670</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,65 +266,78 @@
     <MESSAGE value="拦截器跨域配置" />
     <MESSAGE value="登录控制层接口编写" />
     <MESSAGE value="请求头修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="请求头修正" />
+    <MESSAGE value="注释添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释添加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="117" key="CommitChangelistDialog2" timestamp="1602853352097">
+    <state x="560" y="117" width="1135" height="815" key="CommitChangelistDialog2" timestamp="1603087633700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="117" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1602853352097" />
-    <state width="1860" height="348" key="GridCell.Tab.0.bottom" timestamp="1603014818643">
+    <state x="560" y="117" width="1135" height="815" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603087633700" />
+    <state width="1860" height="250" key="GridCell.Tab.0.bottom" timestamp="1603034866606">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014818643" />
-    <state width="1860" height="348" key="GridCell.Tab.0.center" timestamp="1603014818642">
+    <state width="1860" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034866606" />
+    <state width="1860" height="250" key="GridCell.Tab.0.center" timestamp="1603034866606">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014818642" />
-    <state width="1860" height="348" key="GridCell.Tab.0.left" timestamp="1603014818641">
+    <state width="1860" height="250" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034866606" />
+    <state width="1860" height="250" key="GridCell.Tab.0.left" timestamp="1603034866606">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014818641" />
-    <state width="1860" height="348" key="GridCell.Tab.0.right" timestamp="1603014818642">
+    <state width="1860" height="250" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034866606" />
+    <state width="1860" height="250" key="GridCell.Tab.0.right" timestamp="1603034866606">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014818642" />
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1603014803648">
+    <state width="1860" height="250" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034866606" />
+    <state width="1860" height="250" key="GridCell.Tab.1.bottom" timestamp="1603034667445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014803648" />
-    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1603014803648">
+    <state width="1860" height="250" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034667445" />
+    <state width="1860" height="250" key="GridCell.Tab.1.center" timestamp="1603034667444">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014803648" />
-    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1603014803648">
+    <state width="1860" height="250" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034667444" />
+    <state width="1860" height="250" key="GridCell.Tab.1.left" timestamp="1603034667444">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014803648" />
-    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1603014803648">
+    <state width="1860" height="250" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034667444" />
+    <state width="1860" height="250" key="GridCell.Tab.1.right" timestamp="1603034667445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014803648" />
-    <state width="1860" height="348" key="GridCell.Tab.2.bottom" timestamp="1603014771492">
+    <state width="1860" height="250" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034667445" />
+    <state width="930" height="348" key="GridCell.Tab.2.bottom" timestamp="1603016076493">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014771492" />
-    <state width="1860" height="348" key="GridCell.Tab.2.center" timestamp="1603014771491">
+    <state width="930" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603016076493" />
+    <state width="930" height="348" key="GridCell.Tab.2.center" timestamp="1603016076492">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.2.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014771491" />
-    <state width="1860" height="348" key="GridCell.Tab.2.left" timestamp="1603014771491">
+    <state width="930" height="348" key="GridCell.Tab.2.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603016076492" />
+    <state width="930" height="348" key="GridCell.Tab.2.left" timestamp="1603016076492">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.2.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014771491" />
-    <state width="1860" height="348" key="GridCell.Tab.2.right" timestamp="1603014771492">
+    <state width="930" height="348" key="GridCell.Tab.2.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603016076492" />
+    <state width="930" height="348" key="GridCell.Tab.2.right" timestamp="1603016076492">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.2.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603014771492" />
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1603011186644">
+    <state width="930" height="348" key="GridCell.Tab.2.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603016076492" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1603034774302">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603011186644" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034774302" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603015974204">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603015974204" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1603024390275">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603024390275" />
+    <state x="616" y="245" key="run.anything.popup" timestamp="1603034737971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="245" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603034737971" />
     <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1602862054111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

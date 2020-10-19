@@ -28,6 +28,7 @@ import java.util.Map;
 
 /**
  * shiro启用注解拦截控制器
+ * @author VAIO-adam
  */
 @Configuration
 public class ShiroConfig {

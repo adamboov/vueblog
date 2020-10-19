@@ -3,6 +3,9 @@ package com.adam.vueblog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author VAIO-adam
+ */
 @SpringBootApplication
 public class VueblogApplication {
 
